@@ -1,7 +1,8 @@
+import Navigation from "components/Navigation";
 import React from "react";
 
 const Page = () => {
-  return "Tester";
+  return <Navigation />;
 };
 
 export default Page;

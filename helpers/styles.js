@@ -1,3 +1,4 @@
+import { extendTheme } from "@chakra-ui/react";
 import { css, Global } from "@emotion/react";
 import chroma from "chroma-js";
 
@@ -13,6 +14,17 @@ export const createColorScale = (base, step) => {
     };
   }, {});
 };
+
+export const customTheme = extendTheme({
+  semanticTokens: {
+    space: {
+      base: "2",
+      spacing: "4",
+      margin: "6",
+      touch: "12",
+    },
+  },
+});
 
 export const GlobalStyles = () => {
   return (
