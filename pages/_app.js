@@ -1,7 +1,8 @@
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 
-import { store, persistor } from "store";
+import { intitializeStore } from "store";
+const { store, persistor } = intitializeStore();
 
 const App = ({ Component, pageProps }) => {
   return (
