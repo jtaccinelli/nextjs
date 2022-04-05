@@ -1,9 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project created with several prebuilt utilties to make the application building process easier. This project is intended as a base scaffold for all other types of projects that intergrate with Next.js.
 
 See other options here:
-[Next.js w/ Shopify](/#)
-[Next.js w/ Square](/#)
-[Next.js w/ Prismic](/#)
+
+- [Next.js w/ Shopify](/#) (TBA)
+- [Next.js w/ Square](/#) (TBA)
+- [Next.js w/ Prismic](/#) (TBA)
 
 ## Getting Started
 
