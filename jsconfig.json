@@ -4,7 +4,6 @@
             "components/*": ["./components/*"],
             "helpers/*": ["./helpers/*"],
             "store/*": ["./store/*"],
-            "hocs/*": ["./hocs/*"],
         }
     }
 }
