@@ -1,8 +1,7 @@
-import Navigation from "components/Navigation";
 import React from "react";
 
 const Page = () => {
-  return <Navigation />;
+  return "Create Base Next.js";
 };
 
 export default Page;
