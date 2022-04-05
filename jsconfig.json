@@ -3,6 +3,8 @@
         "paths": {
             "components/*": ["./components/*"],
             "helpers/*": ["./helpers/*"],
+            "hooks/*": ["./hooks/*"],
+            "store": ["./store"],
             "store/*": ["./store/*"],
         }
     }
