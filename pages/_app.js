@@ -1,3 +1,4 @@
+import { GlobalStyles } from "helpers/styles";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 
@@ -6,11 +7,14 @@ const { store, persistor } = intitializeStore();
 
 const App = ({ Component, pageProps }) => {
   return (
-    <Provider store={store}>
-      <PersistGate persistor={persistor}>
-        <Component {...pageProps} />
-      </PersistGate>
-    </Provider>
+    <>
+      <GlobalStyles />
+      <Provider store={store}>
+        <PersistGate persistor={persistor}>
+          <Component {...pageProps} />
+        </PersistGate>
+      </Provider>
+    </>
   );
 };
 
